@@ -6,7 +6,7 @@ body {
 }
 #title{
     display: inline-block;
-    color: #fff;
+    color: #EDF0F2;
     font-size: 35px;
     margin-left: 7%;
     font-family: 'Roboto Mono', monospace;
@@ -17,9 +17,9 @@ body {
     float: right;
     margin: 1.5% 7% 1.5% 0;
     padding: 3px 8px;
-    border: 2px solid #fff;
+    border: 2px solid #EDF0F2;
     border-radius: 4px;
-    color: #d9d9d9;
+    color: #EDF0F2;
     background-color: rgba(0,0,0,0.4);
 }
 nav {
@@ -37,22 +37,39 @@ a{
     text-decoration: none;
 }
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-decoration: none;
-    height: 30vh;
+    height: fit-content;
     width: 40vw;
-    border-radius: 10px;
-    margin-top: 5vh;
-    color: #000;
-    background-color: #d9d9d9;
+    color: #19364C;
 }
-.card:nth-child(1), .card:nth-child(2) {
+.card-link{
+    margin-top: 5vh;
+}
+.card-link:nth-child(1), .card-link:nth-child(2) {
     margin: 0;
 } 
-.card #card-title {
+.card-icon {
+    display: block!important;
+    position: relative;
+    margin-bottom: -25%;
+    text-align: center;
+    font-size: 160px!important;
+    color: #2D485C;
+}
+.card-text{
+    padding-top: 25%;
+    border-radius: 10px;
+    background-color: #AEDBE5;
+}
+.card-title {
     font-family: 'Roboto Mono', monospace;
     margin-left: 5%;
 }
-.card #card-desc{
+.card-desc{
     font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
     margin-left: 5%;
 }
