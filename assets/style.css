@@ -18,7 +18,7 @@ body {
     margin: 1.5% 7% 1.5% 0;
     padding: 3px 8px;
     border: 2px solid #EDF0F2;
-    border-radius: 4px;
+    border-radius: 7px;
     color: #EDF0F2;
     background-color: rgba(0,0,0,0.4);
 }
@@ -57,12 +57,12 @@ a{
     margin-bottom: -25%;
     text-align: center;
     font-size: 160px!important;
-    color: #2D485C;
+    color: #CE7373;
 }
 .card-text{
     padding-top: 25%;
     border-radius: 10px;
-    background-color: #AEDBE5;
+    background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjUiIGhlaWdodD0iNSIgdmlld0JveD0iMCAwIDQwIDQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBwYXR0ZXJuVHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cmVjdCBpZD0icGF0dGVybi1iYWNrZ3JvdW5kIiB4PSIwIiB5PSIwIiB3aWR0aD0iNDAwJSIgaGVpZ2h0PSI0MDAlIiBmaWxsPSIjQzJFM0ZDIi8+IDxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjciIGZpbGw9IiNFREYwRjIiIHN0cm9rZT0iI0VERjBGMiIgc3Ryb2tlLXdpZHRoPSIwIi8+IDwhLS0tLT4gPCEtLS0tPiAgICA8Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIwIiBmaWxsPSIjQzJFM0ZDIiBzdHJva2U9IiNDMkUzRkMiIHN0cm9rZS13aWR0aD0iMCIvPiA8IS0tLS0+IDwhLS0tLT4gICAgPC9wYXR0ZXJuPjwvZGVmcz4gPHJlY3QgZmlsbD0idXJsKCNwYXR0ZXJuKSIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSIgeT0iMCIgeD0iMCIvPjwvc3ZnPg==")
 }
 .card-title {
     font-family: 'Roboto Mono', monospace;
