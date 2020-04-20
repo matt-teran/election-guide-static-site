@@ -30,6 +30,22 @@ nav {
     align-items: center;
     top: 0;
 }
+#menu {
+    display: block;
+    color: white;
+    padding: 0;
+}
+.nav-link{
+    display: block;
+    list-style-type: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5vw;
+    text-align: center;
+}
+.nav-link li {
+    display: block;
+}
 main {
     display: flex;
     justify-content: space-evenly;
