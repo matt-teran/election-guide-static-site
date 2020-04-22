@@ -34,6 +34,7 @@ header {
     display: none;
     color: #EDF0F2;
     padding: 0;
+    margin-bottom: 0;
 }
 a{
     text-decoration: none;
@@ -41,7 +42,7 @@ a{
 .nav-link{
     display: block;
     list-style-type: none;
-    color: white;
+    color: #EDF0F2;
     font-family: 'Roboto Mono', monospace;
     font-size: 5vw;
     line-height: 8vh;
@@ -49,6 +50,9 @@ a{
 }
 .nav-link li {
     display: block;
+}
+#last-line {
+    margin-bottom: 0;
 }
 #header-divider{
     margin: 0;
@@ -58,8 +62,8 @@ a{
     display: flex;
 }
 #sidebar {
-    width: 20vw;
-    height: 100vh;
+    height: 93.7vh;
+    width: 25vw;
     color: #EDF0F2;
     list-style-type: none;
     margin: 0;
@@ -67,12 +71,20 @@ a{
     /* border-right: 1px solid #EDF0F2; */
     background-color: #19364C;
     text-align: center;
-    box-shadow: inset -5px 0px 4px -4px #01090F;
+    box-shadow: inset -6px 0px 7px -3px #01090F;
 }
 .sidebar-divider {
     border-width: 0;
 }
+.sidebar-link {
+    color: #EDF0F2;
+}
 #diagram {
-    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
     height: 60vh;
+    background-color: #01090F;
+    color: white;
 }
