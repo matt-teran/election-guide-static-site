@@ -6,6 +6,11 @@ body {
     
     font-family: 'Roboto Mono', monospace;
 }
+#head-block {
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #EDF0F2;
+}
 #title{
     display: inline-block;
     color: #EDF0F2;
@@ -61,7 +66,11 @@ a{
 #article-header {
     display: flex;
 }
+#article-header nav {
+    width: 25vw;
+}
 #sidebar {
+    position: fixed;
     height: 93.7vh;
     width: 25vw;
     color: #EDF0F2;
@@ -86,5 +95,11 @@ a{
     width: 75vw;
     height: 60vh;
     background-color: #01090F;
-    color: white;
+    color: #EDF0F2;
+}
+#article-body {
+    float:right;
+    color: #EDF0F2;
+    background-color: #01090F;
+    width: 75vw;
 }
