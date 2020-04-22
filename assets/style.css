@@ -62,14 +62,28 @@ a{
     width: 40vw;
     color: #19364C;
 }
+#pres{
+    background-image: url("./whitehouse.jpeg");
+}
+#midterm {
+    background-image: url("./mtrushmore.jpeg");
+}
+#census {
+    background-image: url("./census.jpeg")
+}
 .card-link{
     margin-top: 5vh;
+    border-radius: 10px;
+    background-color: #EDF0F2;
+    background-position: center;
+    background-size: cover;
 }
 .card-link:nth-child(1), .card-link:nth-child(2) {
     margin: 0;
 } 
 .card-icon {
-    display: block!important;
+    /* display: block!important; */
+    display: none!important;
     position: relative;
     margin-bottom: -25%;
     text-align: center;
@@ -77,17 +91,23 @@ a{
     color: #CE7373;
 }
 .card-text{
+    display: flex;
+    align-items: flex-end;
     padding-top: 25%;
     border-radius: 10px;
     height: 25vw;
-    background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjUiIGhlaWdodD0iNSIgdmlld0JveD0iMCAwIDQwIDQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBwYXR0ZXJuVHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cmVjdCBpZD0icGF0dGVybi1iYWNrZ3JvdW5kIiB4PSIwIiB5PSIwIiB3aWR0aD0iNDAwJSIgaGVpZ2h0PSI0MDAlIiBmaWxsPSIjQzJFM0ZDIi8+IDxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjciIGZpbGw9IiNFREYwRjIiIHN0cm9rZT0iI0VERjBGMiIgc3Ryb2tlLXdpZHRoPSIwIi8+IDwhLS0tLT4gPCEtLS0tPiAgICA8Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIwIiBmaWxsPSIjQzJFM0ZDIiBzdHJva2U9IiNDMkUzRkMiIHN0cm9rZS13aWR0aD0iMCIvPiA8IS0tLS0+IDwhLS0tLT4gICAgPC9wYXR0ZXJuPjwvZGVmcz4gPHJlY3QgZmlsbD0idXJsKCNwYXR0ZXJuKSIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSIgeT0iMCIgeD0iMCIvPjwvc3ZnPg==")
+    /* background-image: url("./whitehouse.jpeg");
+    background-position: center;
+    background-size: cover; */
+    /* background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj48ZGVmcz48cGF0dGVybiBpZD0icGF0dGVybiIgd2lkdGg9IjUiIGhlaWdodD0iNSIgdmlld0JveD0iMCAwIDQwIDQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBwYXR0ZXJuVHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cmVjdCBpZD0icGF0dGVybi1iYWNrZ3JvdW5kIiB4PSIwIiB5PSIwIiB3aWR0aD0iNDAwJSIgaGVpZ2h0PSI0MDAlIiBmaWxsPSIjQzJFM0ZDIi8+IDxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjciIGZpbGw9IiNFREYwRjIiIHN0cm9rZT0iI0VERjBGMiIgc3Ryb2tlLXdpZHRoPSIwIi8+IDwhLS0tLT4gPCEtLS0tPiAgICA8Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIwIiBmaWxsPSIjQzJFM0ZDIiBzdHJva2U9IiNDMkUzRkMiIHN0cm9rZS13aWR0aD0iMCIvPiA8IS0tLS0+IDwhLS0tLT4gICAgPC9wYXR0ZXJuPjwvZGVmcz4gPHJlY3QgZmlsbD0idXJsKCNwYXR0ZXJuKSIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSIgeT0iMCIgeD0iMCIvPjwvc3ZnPg==") */
 }
 .card-title {
     font-family: 'Roboto Mono', monospace;
-    margin-left: 5%;
+    margin: 1px 5%;
     font-size: 4vw;
 }
 .card-desc{
+    display: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 3vw;
     margin-left: 5%;
@@ -119,9 +139,16 @@ a{
     }
     #head-block {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 13vh;
     }
     header {
         position: initial;
+        width: 57vw;
+    }
+    #title{
+        font-size: 2vw;
     }
     #hamburger, #first-line, #last-line {
         display: none;
@@ -131,7 +158,7 @@ a{
     }
     .nav-link {
         margin: 0 2vw;
-        font-size: 3vw;
+        font-size: 2vw;
     }
     .card {
         width: 30vw;
