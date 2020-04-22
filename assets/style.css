@@ -103,8 +103,9 @@ a{
 }
 .card-title {
     font-family: 'Roboto Mono', monospace;
-    margin: 1px 5%;
+    margin: 1px 2%;
     font-size: 4vw;
+    line-height: 4vw;
 }
 .card-desc{
     display: none;
