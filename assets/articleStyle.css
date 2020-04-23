@@ -10,9 +10,10 @@ body {
     position: sticky;
     top: 0;
     border-bottom: 1px solid #dce0e0;
-    color: #131313;
     margin-left: 25vw;
     width: 75vw;
+    color: #131313;
+    background-color: #EEE;
 }
 #title{
     display: inline-block;
@@ -91,9 +92,20 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
     width: 75vw;
-    height: 60vh;
     background-color: #EEE;
+}
+#diagram p {
+    text-align: center;
+    border: 1px solid #a2abab;
+    border-radius: 5px;
+    width: 65vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: #131313;
+    background-color: #dce0e0;
 }
 #article-body {
     float:right;
