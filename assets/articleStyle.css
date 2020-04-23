@@ -9,8 +9,10 @@ body {
 #head-block {
     position: sticky;
     top: 0;
-    border-bottom: 1px solid #A2ABAB;
+    border-bottom: 1px solid #dce0e0;
     color: #131313;
+    margin-left: 25vw;
+    width: 75vw;
 }
 #title{
     display: inline-block;
@@ -73,9 +75,11 @@ a{
     margin: 0;
     padding: 0;
     /* border-right: 1px solid #EDF0F2; */
-    background: linear-gradient(-90deg, #131313 -25%, #DCE0E0 10%);
+    background: linear-gradient(-90deg, #131313 -100%, #DCE0E0 6%);
     text-align: center;
     font-size: 3vw;
+    padding-top: 7vh;
+    top: 0;
 }
 .sidebar-divider {
     border-width: 0;
@@ -101,4 +105,7 @@ a{
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5vw;
+}
+.paragraph-divider{
+    margin: 2em 0;
 }

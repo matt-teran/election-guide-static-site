@@ -31,20 +31,23 @@ header {
 }
 #menu {
     display: none;
-    color: white;
+    background-color: #EEE;
     padding: 0;
+    margin: 0;
+}
+#first-line{
+    margin-top: 0;
 }
 .nav-link{
     display: block;
     list-style-type: none;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
     font-size: 5vw;
     line-height: 8vh;
     text-align: center;
 }
 .nav-link li {
     display: block;
+    color: #131313;
 }
 main {
     display: flex;
