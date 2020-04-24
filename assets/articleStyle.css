@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Manrope|Open+Sans&display=swap');
-
 body {
     margin: 0;
     color: #131313;
-    background-color: #EEE;
+    background-color: #DCE0E0;
     font-family: 'Manrope', sans-serif;
 }
 #head-block {
@@ -20,6 +19,9 @@ body {
     font-size: 3.6vw;
     margin-left: 7%;
     font-family: 'Manrope', sans-serif;
+}
+#title a{
+    color: #131313;
 }
 #hamburger {
     float: right;
@@ -38,6 +40,7 @@ header {
 #menu {
     display: none;
     padding: 0;
+    margin-top: 0;
     margin-bottom: 0;
     background-color: #EEE;
 }
@@ -55,6 +58,9 @@ a{
 .nav-link li {
     display: block;
 }
+#first-line {
+    margin-top: 0;
+}
 #last-line {
     margin-bottom: 0;
 }
@@ -70,6 +76,7 @@ a{
 }
 #sidebar {
     position: fixed;
+    overflow: scroll;
     height: 93.7vh;
     width: 25vw;
     list-style-type: none;
@@ -79,7 +86,7 @@ a{
     background: linear-gradient(-90deg, #131313 -100%, #DCE0E0 6%);
     text-align: center;
     font-size: 3vw;
-    padding-top: 11vw;
+    /* padding-top: 11vw; */
     top: 0;
 }
 .sidebar-link {
@@ -98,6 +105,9 @@ a{
     width: 75vw;
     background-color: #EEE;
 }
+#diagram-title {
+    font-size: 4vw;
+}
 #diagram p {
     text-align: center;
     border: 1px solid #a2abab;
@@ -115,6 +125,15 @@ a{
     border-top: 1px solid #dce0e0;
     padding: 3vw;
 }
+#article-title{
+    font-size: 6.4vw;
+}
+section p {
+    text-indent: 10px;
+}
+h3 {
+    font-size: 5vw;
+}
 p, .article-list{
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5vw;
@@ -128,4 +147,72 @@ p, .article-list{
 }
 .paragraph-divider{
     margin: 2em 0;
+}
+#responsive-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+#responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+@media screen and (min-width: 768px){
+    .nav-link{
+        display: block;
+        list-style-type: none;
+        color: #131313;
+        font-size: 2vw;
+        line-height: 10vh;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 992px){
+    #head-block{
+        width: 80vw;
+        margin-left: 20vw;
+    }
+    #title {
+        font-size: 2vw;
+    }
+    #hamburger {
+        font-size: 2vw;
+    }
+    #article-header nav {
+        width: 20vw;
+    }
+    #sidebar {
+        width: 20vw;
+        font-size: 1.5vw;
+    }
+    #diagram{
+        width: 80vw;
+    }
+    #diagram p{
+        margin-left: 9vw;
+        margin-right: 9vw;
+        width: 52vw;
+    }
+    #article-body {
+        width: 60vw;
+        padding: 2vw 10vw;
+    }
+    #article-title {
+        font-size: 3.7vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    h4 {
+        font-size: 2vw;
+    }
+    p, .article-list{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    padding: 0;
+    }
 }
