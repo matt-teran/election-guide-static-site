@@ -82,11 +82,12 @@ a{
     padding-top: 11vw;
     top: 0;
 }
-.sidebar-divider {
-    border-width: 0;
-}
 .sidebar-link {
     color: #131313;
+}
+.sidebar-link li {
+    border-top: 1px solid rgba(162, 171, 171, 0.5);
+    padding: 1em 4%;
 }
 #diagram {
     display: flex;
