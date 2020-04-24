@@ -117,6 +117,11 @@ a{
 p, #convention-list{
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5vw;
+    padding: 0;
+}
+.convention-link {
+    text-indent: 4vw;
+    color: #3b95ca;
 }
 .paragraph-divider{
     margin: 2em 0;
