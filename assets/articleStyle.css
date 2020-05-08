@@ -161,6 +161,12 @@ p, .article-list{
     height: 100%;
     border: 0;
 }
+.resolution {
+    display: inline;
+    padding: 1em;
+    height: 7em;
+    background-image: linear-gradient(white 89%, rgba(0,0,0,0) 100%);
+}
 @media screen and (min-width: 768px){
     .nav-link{
         display: block;
